@@ -80,6 +80,20 @@ We'll start with creating an empty site, add a page that will be accessible to s
 
 9. Add new service
 
+   * We'll add new services using a lightbox. First let's drag a new lightbox to the stage
+   ![light box](assets/lightbox.png)
+   * Drag a dataset into the light box. This dataset will be used to add new services. Set the dataset to "Write only"
+   * Delete the UI that comes with the preset and add a `Text Input` and a `Button`. Your light box should look similar to this one:
+   ![new service modal](assets/new_service_modal.png)
+   * Connect the Text Input to the "Name" field and the "Add" button as a submit.
+  
+10. Test your work
+    * If all the steps went as planed, People can now register to your site using their google/facebook/email accounts and see the list of their services. They can also create new services.
+    * Bonus - For each row in the repeater add an icon of a trash bin and connect it to delete the current serivce.
+
+
+Congratulations! You're done with Step 1 (the longest). Move on to [Step 2 - Learning about repeaters](step2.md)
+
 
 
 

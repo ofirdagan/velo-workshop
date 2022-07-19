@@ -53,7 +53,7 @@ We'll start with creating an empty site, add a page that will be accessible to s
 
         ![collection permissions](assets/collection_permissions.png)
 
-7. Adding UI
+7. Adding UI (Make sure you're editing the "members dashboard" page)
     * Add a repeater to the stage and change its layout to "list"
 
     ![new repeater](assets/new_repeater.png)

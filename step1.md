@@ -74,14 +74,16 @@ We'll start with creating an empty site, add a page that will be accessible to s
 
     ![dataset settings](assets/dataset_settings.png)
 
-    * Now we can select the repeater and bind the text to the "Name" field in the dataset
-    
+    * Now we can select the repeater and bind the text to the "Name" field in the dataset. Important to note that in the editor we won't see the actual data from the database.
+
     ![data bind](assets/data_bind.png)
 
 9. Add new service
 
    * We'll add new services using a lightbox. First let's drag a new lightbox to the stage
+
    ![light box](assets/lightbox.png)
+
    * Drag a dataset into the light box. This dataset will be used to add new services. Set the dataset to "Write only"
    * Delete the UI that comes with the preset and add a `Text Input` and a `Button`. Your light box should look similar to this one:
    ![new service modal](assets/new_service_modal.png)

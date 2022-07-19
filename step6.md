@@ -9,7 +9,7 @@ Up until now we mostly did the "boilerplate" of a regular john doe webapp. A use
 * Expose a `GET` endpoint which will get the service name as a path or a query param and the api key as a header named `x-api-key`. For now this endpoint should verify the api key and save the latest ping timestamp per service.
 * Clone this repo and go to the `demo-app` folder.
     * run `npm install`
-    * implement the `monitor` function in `monitor.ts`
+    * implement the `monitor` function in `monitor.ts`. This function should issue an ajax request to the endpoint that you just wrote. I recommend using [axios](https://github.com/axios/axios) npm package in order to send the request.
     * fill in your `servicName` and `apiKey` in `index.ts`
     * test to see that everything works
 

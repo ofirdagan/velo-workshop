@@ -13,6 +13,10 @@ Up until now we mostly did the "boilerplate" of a regular john doe webapp. A use
     * fill in your `servicName` and `apiKey` in `index.ts`
     * test to see that everything works
 
+# All Done?
+
+Let's continue to [Step 7 - Implementing the core business logic using scheduled jobs + triggered emails](step7.md)
+
 # Having Troubles?
 
 Take a look at:

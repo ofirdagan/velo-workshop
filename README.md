@@ -27,14 +27,14 @@ By the end of this workshop you will understand and have experience with the fol
 
 ## Let's start
 
-[Step 1 - Members only protected pages + zero code CRUD](./step1.md)
-[Step 2 - Learning about repeaters](step2.md)
-[Step 3 - validity checks using wix data hooks](step3.md)
-[Step 4 - Creating an API key using events](step4.md)
-[Step 5 - Exposing backend functionality via web methods](step5.md)
-[Step 6  - Monitoring a service and exposing REST API](step6.md)
-[Step 7 - Implementing the core business logic using scheduled jobs + triggered emails](step7.md)
-[Step 8 - Summary, clean code, Uncovered material and further reading](step8.md)
+* [Step 1 - Members only protected pages + zero code CRUD](./step1.md)
+* [Step 2 - Learning about repeaters](step2.md)
+* [Step 3 - validity checks using wix data hooks](step3.md)
+* [Step 4 - Creating an API key using events](step4.md)
+* [Step 5 - Exposing backend functionality via web methods](step5.md)
+* [Step 6  - Monitoring a service and exposing REST API](step6.md)
+* [Step 7 - Implementing the core business logic using scheduled jobs + triggered emails](step7.md)
+* [Step 8 - Summary, clean code, Uncovered material and further reading](step8.md)
 
 
 

@@ -16,6 +16,7 @@ By the end of this workshop you will understand and have experience with the fol
 * Zero code CRUD using data binding
 * Rendering repeated items using repeaters
 * Wix data hooks
+* EDM events (not to be confused with the wix events vertical)
 * Web methods (aka .jsw)
 * Expose REST API via velo
 * Scheduling jobs (aka setting up cron jobs)

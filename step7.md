@@ -1,30 +1,30 @@
 # Step 7 - Implementing the core business logic using scheduled jobs + triggered emails
 
-Let's have a quick recap. By now your users can create & delete services. Each user has his own unique API key. Duplicate service names are not allowed and you even have a REST endpoint that updates the time of each service's ping. It now time to close all the loose ends and ship this product!
+Let's have a quick recap. By now your users can create & delete services. Each user has his own unique API key. Duplicate service names are not allowed and you even have a REST endpoint that updates the time of each service's last ping. It's now time to close all the loose ends and ship this product!
 
 In this step we'll implement the business logic of detecting dead services and sending alerts for both "service is down" and "service is back online" cases.
 
 To complete this step, do the following:
 
 * Change `monitor` function to be called every 3 min (if you're not familiar with js you should use [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/setInterval))
-* Add a function in your backend code that will be called every 5 minutes ([more on that later](#running-recurring-jobs)). The function's logic should detect dead services. This method should query the `pings` database and search for services that weren't "pinged" in more than 3 minutes. In case it finds such services it should flag these services as "dead" and send an alert to the user. In order to send an email to the user you should use [triggered emails](https://support.wix.com/en/article/velo-getting-started-with-triggered-emails). You can get the user's email via the [getMember](https://www.wix.com/velo/reference/wix-members/currentmember/getmember) method.
-* Change the REST endpoint your'e using in the `monitor` function to check if this service has been "dead". In case it has, send another trigger email of "service is back online"
+* Add a function in your backend code that will be called every 5 minutes ([see running recurring jobs below](#running-recurring-jobs)). The function's logic should detect dead services. This method should query the `pings` database and search for services that weren't "pinged" in more than 3 minutes. In case it finds such services it should flag these services as "dead" and send an alert to the user. In order to send an email to the user you should use [triggered emails](https://support.wix.com/en/article/velo-getting-started-with-triggered-emails). You can get the user's email via the [getMember](https://www.wix.com/velo/reference/wix-members/currentmember/getmember) method.
+* Change the REST endpoint your'e using in `monitor` function to check if this service has been "dead". In case it has, send another trigger email of "service is back online"
 
-# Running Recurring Jobs
+## Running Recurring Jobs
 
-With Velo you can set [scheduled tasks](https://support.wix.com/en/article/velo-scheduling-recurring-jobs) using a [cron](https://en.wikipedia.org/wiki/Cron) like syntax. This way, you can run a specific backend logic that you want at any given time. The minimum resolution of supported repeated task is one hour. However, you can set up to 20 tasks so if you add 12 tasks that each has a repeating task of one hour you can achieve a repeating task that will run every five minutes. You can take a look at my `jobs.config` file down [below](#having-troubles)
+With Velo you can set [scheduled tasks](https://support.wix.com/en/article/velo-scheduling-recurring-jobs) using a [cron](https://en.wikipedia.org/wiki/Cron) like syntax. This way, you can run a specific backend logic that you want at any given time. The minimum time that's supported for a repeated task is one hour. However, you can set up to 20 tasks so if you add 12 tasks that each has the same repeating task you can achieve a repeating task that will run every five minutes. You can take a look at my `jobs.config` file down [below](#having-troubles)
 
 
-# All Done?
+## All Done?
 
 OMG Congratulations! You've implemented your own (very light) version of Pingdom!!
 
-# Want to learn more?
+## Want to learn more?
 
-Let's continue to our last step. [Clean code practices, uncovered material and further reading](further-reading.md)
+[Clean code practices, uncovered material and further reading](further-reading.md)
 ]
 
-# Having Troubles?
+## Having Troubles?
 
 Take a look at:
 * [http-functions.js](https://gist.github.com/ofirdagan/d700f23799b83acaf56c0de0c102922c)

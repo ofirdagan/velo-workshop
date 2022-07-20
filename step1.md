@@ -29,8 +29,7 @@ We'll start with creating an empty site, add a page that will be accessible to s
     ![page-settings](assets/page_settings.png "page settings")
     ![members-only](assets/memebrs_only.png)
 
-4. Drag the "site menu" component to the left and 
-    * Configure it to show all pages
+4. Drag the "site menu" component to the left and configure it to show all pages
 
 ![manage-menu](assets/manage-menu.png)
 ![all site pages](assets/all_site_pages.png)
@@ -52,6 +51,7 @@ We'll start with creating an empty site, add a page that will be accessible to s
         * open the collection permissions and privacy settings and follow the picture:
 
         ![collection permissions](assets/collection_permissions.png)
+        ![collection permission manager](assets/database_permissions.png)
 
 7. Adding UI (Make sure you're editing the "members dashboard" page)
     * Add a repeater to the stage and change its layout to "list"
@@ -66,11 +66,11 @@ We'll start with creating an empty site, add a page that will be accessible to s
     ![page ui](assets/page_ui.png)
 
 8. Bind the data
-    * To bind the repeater item's text to our service name we will need to add to the page a "Data Set" component. Let's drag one to the stage
+    * To bind the repeater item's text to our service name we will need to add to the page a "Dataset" component. Let's drag one to the stage
 
     ![add dataset](assets/add_dataset.png)
 
-    * Set it to the "Services" collection and configure it to allow both read & write
+    * Set it to the "services" collection and configure it to allow both read & write
 
     ![dataset settings](assets/dataset_settings.png)
 
@@ -94,10 +94,10 @@ We'll start with creating an empty site, add a page that will be accessible to s
    ![add bind](assets/add_bind.png)
   
 10. Test your work
-    * If all the steps went as planed, People can now register to your site using their google/facebook/email accounts and see the list of their services. They can also create new services.
+    * If all the steps went as planed, people can now register to your site using their google/facebook/email accounts and see the list of their services. They can also create new services.
     * Bonus - For each row in the repeater add an icon of a trash bin and connect it to delete the current service.
 
-
+## All Done?
 Congratulations! You're done with Step 1 (the longest). Move on to [Step 2 - Learning about repeaters](step2.md)
 
 

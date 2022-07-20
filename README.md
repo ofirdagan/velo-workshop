@@ -16,7 +16,7 @@ By the end of this workshop you will understand and have experience with the fol
 * Zero code CRUD using data binding
 * Rendering repeated items using repeaters
 * Wix data hooks
-* Wix data events (not to be confused with the wix events vertical)
+* EDM events (not to be confused with the wix events vertical)
 * Web methods (aka .jsw)
 * Expose REST API via velo
 * Scheduling jobs (aka setting up cron jobs)
@@ -28,12 +28,11 @@ By the end of this workshop you will understand and have experience with the fol
 ## Before we start
 Before we'll dive into the workshop there are some important things you should know when working w/ Velo.
 * Monitoring and Debugging
-    * Backend logs can be viewed in the [Site Events (aka logs)](https://manage.wix.com/account/site-selector/?actionUrl=https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fsettings%2Fmonitoring%2Fsite-events&title=Site+Events&primaryButtonText=Select) section in the business manager's developer tools menu.
-    * Debugging client code can be done via the browser's developer tools. Look in the console for the file name of the page you want to debug
+    * Backend logs as well as client logs can be viewed in the [Site Events (aka logs)](https://manage.wix.com/account/site-selector/?actionUrl=https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fsettings%2Fmonitoring%2Fsite-events&title=Site+Events&primaryButtonText=Select) section in the business manager's developer tools menu. Note that you can't browse logs history, you can only see realtime logs, so the logs screen needs to be open during the session (open it in another tab in your browser).
 
 ![debug](assets/debug.png)
 
-* Preview mode - Some Velo features such as "Events" and "Scheduled jobs" doens't work in preview mode. It's best to publish the site and check on production.
+* Preview mode - Some Velo features such as "Events" and "Scheduled jobs" doens't work in preview mode. It's best to use a [test-site](https://support.wix.com/en/article/creating-a-test-site), or to publish the site and check on production.
 
 
 ## Let's start

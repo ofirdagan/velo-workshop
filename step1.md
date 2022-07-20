@@ -80,14 +80,18 @@ We'll start with creating an empty site, add a page that will be accessible to s
 
 9. Add new service
 
-   * We'll add new services using a lightbox. First let's drag a new lightbox to the stage
+   * We'll add new services using a lightbox. First let's drag a new lightbox to the stage. Make sure to remove the default lightbox settings of displaying it automatically on every page.
 
    ![light box](assets/lightbox.png)
+   ![light box hide](assets/lightbox-hide.png)
 
    * Drag a dataset into the light box. This dataset will be used to add new services. Set the dataset to "Write only"
    * Delete the UI that comes with the preset and add a `Text Input` and a `Button`. Your light box should look similar to this one:
    ![new service modal](assets/new_service_modal.png)
    * Connect the Text Input to the "Name" field and the "Add" button as a submit.
+
+   ![input bind](assets/input_bind.png)
+   ![add bind](assets/add_bind.png)
   
 10. Test your work
     * If all the steps went as planed, People can now register to your site using their google/facebook/email accounts and see the list of their services. They can also create new services.

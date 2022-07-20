@@ -45,7 +45,7 @@ Before we'll dive into the workshop there are some important things you should k
 * [Step 5 - Exposing backend functionality via web methods](step5.md)
 * [Step 6  - Monitoring a service and exposing REST API](step6.md)
 * [Step 7 - Implementing the core business logic using scheduled jobs + triggered emails](step7.md)
-* [Step 8 - Summary, clean code, Uncovered material and further reading](step8.md)
+* [Clean code practices, security best practices, uncovered material and further reading](further-reading.md)
 
 
 

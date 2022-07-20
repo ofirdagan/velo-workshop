@@ -2,7 +2,7 @@
 We'll start with creating an empty site, add a page that will be accessible to site members only. Then we'll use data sets and data binding to create/delete new services that we want to monitor. 
 
 1. Create a new empty site 
-    * Naviagte to the [blank templates page](https://www.editorx.com/website-templates) and click `Edit` on the "Blank Canvas" template (top left)
+    * Navigate to the [blank templates page](https://www.editorx.com/website-templates) and click `Edit` on the "Blank Canvas" template (top left)
 
 2. Add members area
     * Under the `+` sign choose "Members" and click "Add to Site"
@@ -49,7 +49,7 @@ We'll start with creating an empty site, add a page that will be accessible to s
     ![manage fields](assets/manage_fields.png)
 
     * Let's change the permissions of the collection so only the site member who created the content can see and edit it.
-        * open the collection permissions and privacy settings and follow the picutre:
+        * open the collection permissions and privacy settings and follow the picture:
 
         ![collection permissions](assets/collection_permissions.png)
 
@@ -91,7 +91,7 @@ We'll start with creating an empty site, add a page that will be accessible to s
   
 10. Test your work
     * If all the steps went as planed, People can now register to your site using their google/facebook/email accounts and see the list of their services. They can also create new services.
-    * Bonus - For each row in the repeater add an icon of a trash bin and connect it to delete the current serivce.
+    * Bonus - For each row in the repeater add an icon of a trash bin and connect it to delete the current service.
 
 
 Congratulations! You're done with Step 1 (the longest). Move on to [Step 2 - Learning about repeaters](step2.md)

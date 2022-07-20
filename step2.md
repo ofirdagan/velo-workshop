@@ -1,6 +1,6 @@
 # Step 2 - Learning about repeaters
 
-In this step we'll build the same page as before but this time with code instead of data binding. It's important to know both methods as sometimes you will need to write your own custom logic that will be hard to acheive using data binding alone.
+In this step we'll build the same page as before but this time with code instead of data binding. It's important to know both methods as sometimes you will need to write your own custom logic that will be hard to achieve using data binding alone.
 
 1. Duplicate the "members dashboard page"
 2. Delete all datasets and make sure the connected components are unconnected

@@ -1,6 +1,6 @@
 # Step 3 - validity checks using wix data hooks
 
-As we want to expose an easy and clean to work with API to our users, we would like to use the service name as the key when a user asks to monitor a sepecific service and not a random GUID. For that we need to make sure that service names are unique. For simplicity we'll make it unique across all the services in the system and not just for the user.
+As we want to expose an easy and clean to work with API to our users, we would like to use the service name as the key when a user asks to monitor a specific service and not a random GUID. For that we need to make sure that service names are unique. For simplicity we'll make it unique across all the services in the system and not just for the user.
 
 To do that we'll use a the `data hooks` feature. Data hooks lets you "tap" into the flow of inserting/deleting/updating/fetching data. Read more about it [here](https://www.wix.com/velo/reference/wix-data/hooks)
 

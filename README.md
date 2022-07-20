@@ -25,6 +25,17 @@ By the end of this workshop you will understand and have experience with the fol
 * Clean code practices on velo
 
 
+## Before we start
+Before we'll dive into the workshop there are some important things you should know when working w/ Velo.
+* Monitoring and Debugging
+    * Backend logs can be viewed in the [Site Events (aka logs)](https://manage.wix.com/account/site-selector/?actionUrl=https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fsettings%2Fmonitoring%2Fsite-events&title=Site+Events&primaryButtonText=Select) section in the business manager's developer tools menu.
+    * Debugging client code can be done via the browser's developer tools. Look in the console for the file name of the page you want to debug
+
+![debug](assets/debug.png)
+
+* Preview mode - Some Velo features such as "Events" and "Scheduled jobs" doens't work in preview mode. It's best to publish the site and check on production.
+
+
 ## Let's start
 
 * [Step 1 - Members only protected pages + zero code CRUD](./step1.md)

@@ -11,6 +11,8 @@ In this step we'll build the same page as before but this time with code instead
 
 **Note** - You can use the lightbox you've created in the previous page. No need to rewrite this part as well.
 
+## All Done?
+
 Is everything working like the original "member dashboard" page? Great then it's time to move on to [Step 3 - validity checks using wix data hooks](step3.md)
 
 

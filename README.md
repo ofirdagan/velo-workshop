@@ -16,7 +16,7 @@ By the end of this workshop you will understand and have experience with the fol
 * Zero code CRUD using data binding
 * Rendering repeated items using repeaters
 * Wix data hooks
-* Wix data events (not to be confused with the wix events vertical)
+* Wix API events
 * Web methods (aka .jsw)
 * Expose REST API via velo
 * Scheduling jobs (aka setting up cron jobs)
@@ -33,7 +33,7 @@ Before we'll dive into the workshop there are some important things you should k
 
 ![debug](assets/debug.png)
 
-* Preview mode - Some Velo features such as "Events" and "Scheduled jobs" doens't work in preview mode. It's best to publish the site and check on production.
+* Preview mode - Some Velo features such as "Events" and "Scheduled jobs" doesn't work in preview mode. It's best to use a [test-site](https://support.wix.com/en/article/creating-a-test-site), or to publish the site and check on production.
 
 
 ## Let's start

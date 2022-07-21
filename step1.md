@@ -85,13 +85,28 @@ We'll start with creating an empty site, add a page that will be accessible to s
    ![light box](assets/lightbox.png)
    ![light box hide](assets/lightbox-hide.png)
 
-   * Drag a dataset into the light box. This dataset will be used to add new services. Set the dataset to "Write only"
+   * Add a **new dataset** into the lightbox. You can think of a dataset as a UI connector to a database. You can have multiple dataset connected to the same database. This dataset will be used to add new services. Set the dataset permissions to "Write only".
    * Delete the UI that comes with the preset and add a `Text Input` and a `Button`. Your light box should look similar to this one:
    ![new service modal](assets/new_service_modal.png)
-   * Connect the Text Input to the "Name" field and the "Add" button as a submit.
+   * Bind the Text Input to the "Name" field and the "Add" button as a submit like we did for the repeater.
 
    ![input bind](assets/input_bind.png)
    ![add bind](assets/add_bind.png)
+
+   * Now we need to connect the "New" button to open the lightbox. For that we'll write some code. Go to the page code editor and paste this code **instead** of the current content (Make sure to change the IDs to match your site)
+
+    ```js
+    import wixWindow from 'wix-window';
+
+    $w.onReady(() => {
+        $w('#addService').onClick(() => {
+            wixWindow.openLightbox('newServiceLightbox')
+                .then(() => {
+                    $w('#servicesDataset').refresh();
+                });
+        })
+    });
+    ```
   
 10. Test your work
     * If all the steps went as planed, people can now register to your site using their google/facebook/email accounts and see the list of their services. They can also create new services.

@@ -83,7 +83,7 @@ We'll start with creating an empty site, add a page that will be accessible to s
    * We'll add new services using a lightbox. First let's drag a new lightbox to the stage. Make sure to remove the default lightbox settings of displaying it automatically on every page.
 
    ![light box](assets/lightbox.png)
-   ![light box hide](assets/lightbox-hide.png)
+   ![light box hide on show](assets/lightbox-hide-on-show.png)
 
    * Add a **new dataset** into the lightbox. You can think of a dataset as a UI connector to a database. You can have multiple dataset connected to the same database. This dataset will be used to add new services. Set the dataset permissions to "Write only".
    * Delete the UI that comes with the preset and add a `Text Input` and a `Button`. Your light box should look similar to this one:
